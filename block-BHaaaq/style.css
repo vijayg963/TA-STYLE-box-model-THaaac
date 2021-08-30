@@ -1,0 +1,114 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* this is my custom css */
+
+body{
+    margin: 4%;
+    margin-top: 30px;
+}
+
+header{
+font-size: 50px;
+text-align: left;
+
+
+}
+div{
+    width: 140px;
+    height: 100px;
+    padding: 10px;
+    margin: 20px;
+    background-color: crimson;
+}
+.box1{
+    border: 5px black solid;
+    margin: 20x;
+}
+
+.box2{
+    border: 5px black double;
+    display: inline-table;
+}
+
+.box3{
+    border: 5px black dotted;
+    display: inline-block;
+}
+
+.box4{
+    border:5px black dashed ;
+    display: inline-table;
+}
+
+.box5{
+
+    display: inline-block;
+}
+article{
+    background-color: #824180;
+    height: 430px;
+    width: 390px;
+
+}
+p{
+    color: white;
+}
+.big{
+    margin-top: 25px;
+    margin-left: 12.5px;
+    display: inline-table;
+    width: 300px;
+    height: auto;
+    background-color: red;
+    border-top: blue 20px solid;
+    border-bottom: yellow  20px solid;
+    border-left: green 20px solid;
+    border-right: gray 20px solid;
+    
+}
